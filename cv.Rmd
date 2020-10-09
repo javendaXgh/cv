@@ -57,7 +57,7 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("Ver este currículo en línea en _javenda.github.io_")
+  cat("Ver este currículo en línea en _https://github.com/javendaXgh/cv/raw/master/cv_JMAI.pdf_")
 } else {
   cat("[<i class='fas fa-download'></i> Descargar un PDF de este currículo](https://github.com/javendaXgh/cv/raw/master/javenda_cv.pdf)")
 }
